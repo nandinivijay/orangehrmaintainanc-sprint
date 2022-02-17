@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.orangeHRM.qa.util.Listener_ItestContext_Screenshot"/>
+    <listener class-name="com.orangeHRM.qa.util.TestListenerForExtentReports"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.orangeHRM.qa.testcases.MyEntitlementsPageTest">
+        <methods>
+          <include name="testcontext"/>
+          <include name="verifyMyEntitlementTestPage" invocation-numbers="0"/>
+          <include name="initialise"/>
+          <include name="loadUrl"/>
+          <include name="close"/>
+          <include name="verifyMyEntitlementsPageNavigation"/>
+        </methods>
+      </class> <!-- com.orangeHRM.qa.testcases.MyEntitlementsPageTest -->
+      <class name="com.orangeHRM.qa.testcases.RecruitmentPageTest">
+        <methods>
+          <include name="testcontext"/>
+          <include name="verifyRecruitmentPageNavigation"/>
+          <include name="validatingRecruitmentSubMenuDisplay"/>
+          <include name="initialise"/>
+          <include name="loadUrl"/>
+          <include name="close"/>
+          <include name="navigatingToSubMenuOnClickingRecruitment"/>
+          <include name="verifyColorsOfSubmenuInRecruitment"/>
+        </methods>
+      </class> <!-- com.orangeHRM.qa.testcases.RecruitmentPageTest -->
+      <class name="com.orangeHRM.qa.testcases.MyLeaveEntitlementsAndUsageReportPageTest">
+        <methods>
+          <include name="testcontext"/>
+          <include name="verifyMyLeaveEntitlementsAndUsageReportPageNavigation"/>
+          <include name="initialise"/>
+          <include name="loadUrl"/>
+          <include name="close"/>
+          <include name="myLeaveEntitlementsAndUsageReportTesting"/>
+        </methods>
+      </class> <!-- com.orangeHRM.qa.testcases.MyLeaveEntitlementsAndUsageReportPageTest -->
+      <class name="com.orangeHRM.qa.testcases.TerminationReasonsPIMPageTest">
+        <methods>
+          <include name="testcontext"/>
+          <include name="initialise"/>
+          <include name="loadUrl"/>
+          <include name="close"/>
+          <include name="terminationReasonsPIMTesting"/>
+          <include name="verifyTerminationReasonsPIMPageNavigation"/>
+        </methods>
+      </class> <!-- com.orangeHRM.qa.testcases.TerminationReasonsPIMPageTest -->
+      <class name="com.orangeHRM.qa.testcases.Memberships_MyInfoPageTest">
+        <methods>
+          <include name="a_verifyMyInfoPageNavigation"/>
+          <include name="testcontext"/>
+          <include name="editMembershipTesting" invocation-numbers="1"/>
+          <include name="verifymemberships_MyInfoPageNavigation"/>
+          <include name="initialise"/>
+          <include name="loadUrl"/>
+          <include name="b_myInfoTesting"/>
+          <include name="close"/>
+          <include name="verifyAddMembershipTesting"/>
+        </methods>
+      </class> <!-- com.orangeHRM.qa.testcases.Memberships_MyInfoPageTest -->
+      <class name="com.orangeHRM.qa.testcases.Qualifiation_MyInfoPageTest">
+        <methods>
+          <include name="testcontext"/>
+          <include name="verifyAddLicense" invocation-numbers="0 1"/>
+          <include name="initialise"/>
+          <include name="loadUrl"/>
+          <include name="validateLangaugesSection_Qualification"/>
+          <include name="validatingLevelDropdownOptionsDuplicates"/>
+          <include name="verifyAddSkillTesting"/>
+          <include name="close"/>
+          <include name="editSkillTesting"/>
+          <include name="verifystartDateFormat"/>
+          <include name="verifyAddWorkExperience" invocation-numbers="0 1"/>
+          <include name="deletingSingle_LicenseRow"/>
+          <include name="deletingSingle_WorkExp"/>
+          <include name="editWorkExperience"/>
+          <include name="validateAttachmentsInQualifications"/>
+          <include name="editMyInfoLicense"/>
+          <include name="verifyQualifiation_MyInfoPageNavigation"/>
+          <include name="validatingskillDropdownOptionsDuplicates"/>
+        </methods>
+      </class> <!-- com.orangeHRM.qa.testcases.Qualifiation_MyInfoPageTest -->
+      <class name="com.orangeHRM.qa.testcases.ContactDetailsPageTest">
+        <methods>
+          <include name="example_VerifyDownloadWithFileName"/>
+          <include name="testcontext"/>
+          <include name="clickingOnEditLink"/>
+          <include name="verifyContactDetailsPageNavigation"/>
+          <include name="initialise"/>
+          <include name="deletingSingle_Attatchment"/>
+          <include name="loadUrl"/>
+          <include name="contactDetailsAttatchmentTesting"/>
+          <include name="close"/>
+          <include name="tableHeaderValidation"/>
+          <include name="toolTipValidation"/>
+        </methods>
+      </class> <!-- com.orangeHRM.qa.testcases.ContactDetailsPageTest -->
+      <class name="com.orangeHRM.qa.testcases.LoginTestPage">
+        <methods>
+          <include name="testcontext"/>
+          <include name="initialise"/>
+          <include name="loadUrl"/>
+          <include name="close"/>
+          <include name="login_invalid_credentials"/>
+        </methods>
+      </class> <!-- com.orangeHRM.qa.testcases.LoginTestPage -->
+      <class name="com.orangeHRM.qa.testcases.DashboardPageTest">
+        <methods>
+          <include name="testcontext"/>
+          <include name="initialise"/>
+          <include name="loadUrl"/>
+          <include name="close"/>
+          <include name="verifyDashboardPageNavigation"/>
+          <include name="dashboardTesting"/>
+        </methods>
+      </class> <!-- com.orangeHRM.qa.testcases.DashboardPageTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

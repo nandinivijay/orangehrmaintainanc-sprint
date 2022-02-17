@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.orangeHRM.qa.testcases.CandidatesPageTest">
+        <methods>
+          <include name="testcontext"/>
+          <include name="verifyCandidatesPageNavigation"/>
+          <include name="editcandidate"/>
+          <include name="initialise"/>
+          <include name="loadUrl"/>
+          <include name="close"/>
+          <include name="setcontext"/>
+          <include name="searchFunctionalityForCandidates"/>
+          <include name="resetButtonclick"/>
+          <include name="candidate_History_HdrValidate"/>
+          <include name="clickCandidateValidation"/>
+          <include name="checkingStatus"/>
+          <include name="verifyingFieldsInCandidates"/>
+          <include name="searchBtnClk"/>
+          <include name="candidatesTesting"/>
+          <include name="addcandidate"/>
+          <include name="setcontext2"/>
+          <include name="setcontext1"/>
+          <include name="candidate_Table_HeaderValidate"/>
+          <include name="setcontext4"/>
+          <include name="candidateTableHeaderValidation"/>
+          <include name="validationsedit"/>
+        </methods>
+      </class> <!-- com.orangeHRM.qa.testcases.CandidatesPageTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
