@@ -150,7 +150,7 @@ public class DashboardPageTest extends BaseClass{
 		}
 
 		// checking number of tooltips displayed
-		int numberOfToolTips = 0;
+	/**	int numberOfToolTips = 0;
 		Pair<Map, List> expectedp = dashboardpage.getTooltipTotalPercentage();
 		// List<Integer> expectedl=expectedp.second();
 		List<Integer> tooltipvalue = expectedp.second();
@@ -217,7 +217,7 @@ public class DashboardPageTest extends BaseClass{
 						Assert.assertTrue(expectedm.get(key).equalsIgnoreCase(color.getCssValue("color")));
 					}
 
-				}
+				}**/
 		}
 	
 
